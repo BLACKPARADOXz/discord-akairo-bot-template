@@ -1,7 +1,7 @@
-const { Command } = require("discord-akairo");
-const { Message } = require("discord.js");
+import { Command } from "discord-akairo";
+import { Message } from "discord.js";
 
-module.exports = class extends Command {
+export default class extends Command {
     public constructor() {
         super("Toplama", {
             aliases: ["toplama"], 
