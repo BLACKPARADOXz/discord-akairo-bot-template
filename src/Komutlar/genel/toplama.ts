@@ -18,11 +18,7 @@ export default class extends Command {
         })
     }
 
-    /**
-     * @param { Message } message 
-     */
-
-    exec(message, { sayı1,sayı2 }) {
+    exec(message: Message, { sayı1,sayı2 }) {
 
         if (!sayı1) {
             message.channel.send("ilk sayıyı girmek zorunludur")
