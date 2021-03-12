@@ -1,0 +1,22 @@
+{
+    "name": "discord-akairo-bot",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "src/main",
+    "scripts": {
+        "start": "node dist/main"
+    },
+    "keywords": [],
+    "dependencies": {
+        "colorette": "^1.2.1",
+        "discord-akairo": "^8.1.0",
+        "discord.js": "^12.5.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BLACKPARADOXz/discord-akairo-bot-template"
+    },
+    "devDependencies": {
+        "eslint": "^7.20.0"
+    }
+}
