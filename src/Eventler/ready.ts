@@ -1,5 +1,5 @@
-const { Listener } = require('discord-akairo')
-const { green } = require('colorette')
+import { Listener } from 'discord-akairo';
+import { green } from 'colorette';
 
 export default class extends Listener {
     constructor() {
