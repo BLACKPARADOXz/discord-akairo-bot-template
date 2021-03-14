@@ -8,11 +8,7 @@ export default class extends Command {
         })
     }
 
-    /**
-     * @param { Message } message 
-     */
-
-    exec(message) {
+    exec(message: Message) {
         message.channel.send(`Pong ${this.client.ws.ping}ms`)
     }
 }
