@@ -7,6 +7,7 @@ if NOT ["%errorlevel%"]==["0"] (
 )
 
 echo Bot başlatılıyor...
+call npm i typescript
 call npx tsc
 call cd dist
 call node main
