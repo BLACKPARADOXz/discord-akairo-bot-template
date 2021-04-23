@@ -6,7 +6,7 @@ if NOT ["%errorlevel%"]==["0"] (
   exit /b %errorlevel%
 )
 
-echo Bot başlatılıyor...
+echo Bot baslatılıyor...
 call npm i typescript -D
 call npx tsc
 call cd dist
